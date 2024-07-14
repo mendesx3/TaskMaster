@@ -1,1 +1,27 @@
-/target
+# Compiled files
+/target/
+
+# Executables and libraries
+*.exe
+*.so
+*.dylib
+*.dll
+
+# Intermediate files
+*.rlib
+
+# Cargo package files
+Cargo.lock
+Cargo.toml.orig
+
+# Dependencies directory
+/vendor/
+
+# IDE/Editor directories and files
+/.idea/
+/.vscode/
+/*.rs.bk
+
+# Other common files and directories to ignore
+.DS_Store
+Thumbs.db
